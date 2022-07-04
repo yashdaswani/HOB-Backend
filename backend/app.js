@@ -1,6 +1,6 @@
 const https = require("https");
 const http = require("http");
-const PORT = process.env.PORT || 8080; // Step 1
+const PORT = process.env.PORT || 5000; // Step 1
 //creating http server that will be called in frontend using axios
 http
   .createServer((req, res) => {
@@ -64,4 +64,4 @@ http
   })
   .listen(PORT);
 
-console.log("Starting server on port http://localhost:8080 .....");
+console.log("Starting server on port http://localhost:5000 .....");
